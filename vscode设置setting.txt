@@ -1,0 +1,53 @@
+{
+  "editor.fontSize": 18,
+  "explorer.confirmDelete": false,
+  "px-to-rem.px-per-rem": 50,
+  "cssrem.rootFontSize": 50,
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 1,
+  "sync.gist": "",
+  "background.customImageFolders": [],
+  "background.useFront": true,
+  "background.customImages": [
+    "file:///F:/1.jpg", //图片地址
+  ],
+  "background.styles": [
+    {
+      "content": "''",
+      "pointer-events": "none",
+      "position": "absolute",
+      "top": 0,
+      "left": 0,
+      "width": "100%",
+      "height": "100%",
+      "z-index": "99999",
+      "background.repeat": "no-repeat",
+      "background-size": "100%,100%",
+      "opacity": 0.1
+    }
+  ],
+  "background.useDefault": false,
+  "editor.codeActionsOnSave": null,
+  "vetur.format.options.tabSize": 2, //缩进设置
+  "vetur.format.defaultFormatter.html": "js-beautify-html", // html 不换行
+  "vetur.format.defaultFormatter.js": "vscode-typescript", // js 不换行
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_line_length": 0, // 设置多个字符后换行 0 表示忽略
+      "wrap_attributes": "auto", // html 标签属性 换行设置[auto|force|force-aligned|force-expand-multiline] ["auto"]
+      "end_with_newline": false // 在文件结尾添加新行
+    },
+    "prettier": {
+      "semi": false, //  不要分号分号
+      "singleQuote": true, //  要单引号
+      "trailingComma": "none", // 禁止随时添加逗号
+    }
+  },
+  "[json]": {
+  
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  }
+}
