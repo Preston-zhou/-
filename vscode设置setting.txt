@@ -1,4 +1,7 @@
 {
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+},
   "editor.fontSize": 18,
   "explorer.confirmDelete": false,
   "px-to-rem.px-per-rem": 50,
