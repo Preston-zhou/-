@@ -4,46 +4,44 @@
 },
   "editor.fontSize": 18,
   "explorer.confirmDelete": false,
-  "px-to-rem.px-per-rem": 50,
-  "cssrem.rootFontSize": 50,
   "workbench.iconTheme": "vscode-icons",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "sync.gist": "",
   "background.customImageFolders": [],
   "background.useFront": true,
   "background.customImages": [
-    "file:///F:/1.jpg", //Í¼Æ¬µØÖ·
+    "file:///D:img/2.jpg", //å›¾ç‰‡åœ°å€
   ],
   "background.styles": [
     {
       "content": "''",
       "pointer-events": "none",
-      "position": "absolute",
+      "position": "fixed",
       "top": 0,
       "left": 0,
       "width": "100%",
       "height": "100%",
       "z-index": "99999",
       "background.repeat": "no-repeat",
-      "background-size": "100%,100%",
-      "opacity": 0.1
+      "background-size": "100% 100%",
+      "opacity": 0.2
     }
   ],
   "background.useDefault": false,
   "editor.codeActionsOnSave": null,
-  "vetur.format.options.tabSize": 2, //Ëõ½øÉèÖÃ
-  "vetur.format.defaultFormatter.html": "js-beautify-html", // html ²»»»ĞĞ
-  "vetur.format.defaultFormatter.js": "vscode-typescript", // js ²»»»ĞĞ
+  "vetur.format.options.tabSize": 2, //ç¼©è¿›è®¾ç½®
+  "vetur.format.defaultFormatter.html": "js-beautify-html", // html ä¸æ¢è¡Œ
+  "vetur.format.defaultFormatter.js": "vscode-typescript", // js ä¸æ¢è¡Œ
   "vetur.format.defaultFormatterOptions": {
     "js-beautify-html": {
-      "wrap_line_length": 0, // ÉèÖÃ¶à¸ö×Ö·ûºó»»ĞĞ 0 ±íÊ¾ºöÂÔ
-      "wrap_attributes": "auto", // html ±êÇ©ÊôĞÔ »»ĞĞÉèÖÃ[auto|force|force-aligned|force-expand-multiline] ["auto"]
-      "end_with_newline": false // ÔÚÎÄ¼ş½áÎ²Ìí¼ÓĞÂĞĞ
+      "wrap_line_length": 0, // è®¾ç½®å¤šä¸ªå­—ç¬¦åæ¢è¡Œ 0 è¡¨ç¤ºå¿½ç•¥
+      "wrap_attributes": "auto", // html æ ‡ç­¾å±æ€§ æ¢è¡Œè®¾ç½®[auto|force|force-aligned|force-expand-multiline] ["auto"]
+      "end_with_newline": false // åœ¨æ–‡ä»¶ç»“å°¾æ·»åŠ æ–°è¡Œ
     },
     "prettier": {
-      "semi": false, //  ²»Òª·ÖºÅ·ÖºÅ
-      "singleQuote": true, //  Òªµ¥ÒıºÅ
-      "trailingComma": "none", // ½ûÖ¹ËæÊ±Ìí¼Ó¶ººÅ
+      "semi": false, //  ä¸è¦åˆ†å·åˆ†å·
+      "singleQuote": true, //  è¦å•å¼•å·
+      "trailingComma": "none", // ç¦æ­¢éšæ—¶æ·»åŠ é€—å·
     }
   },
   "[json]": {
@@ -52,5 +50,8 @@
       "strings": true
     },
     "editor.suggest.insertMode": "replace"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
   }
 }
